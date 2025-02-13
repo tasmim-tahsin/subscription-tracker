@@ -2,8 +2,8 @@ import express from 'express';
 import cookieParser from 'cookie-parser';
 
 import errorMiddleware from './middlewares/error.middleware.js';
-//import { PORT } from './config/env.js';
-const PORT=5500;
+import { PORT } from './config/env.js';
+//const PORT=5500;
 
 import userRouter from './routes/user.routes.js';
 import authRouter from './routes/auth.routes.js';
